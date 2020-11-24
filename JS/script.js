@@ -20,3 +20,13 @@ console.log(coursesList); /// adding log function
       }
   }
 console.log(courses); 
+//// while looping statement if your taking this course 
+var courseList = 1000;
+while (coursesList <= 1620)
+
+do {
+    document.write("course of 1620")
+    document.write(coursesList +"Yes, I am taking 1620- the course fundemental web technologies <h1 />");
+  coursesList++;
+  console.log(courseList)
+}
