@@ -1,3 +1,22 @@
-let coursesList = ["ACIT 1620", "ACIT 1420", "Math 1310"] ///adding the courseList
-let course = 
-console.log(coursesList[0]); 
+let coursesList=[
+    {code: 'ACIT 1620',
+    name: 'Fundemental Web Technology'},
+
+    {code: 'ACIT 1420',
+    name:'Introduction to System Administration'},
+
+    {code:'Math 1310',
+    name:'Math for IT'}
+ ]; ///adding the courseList
+console.log(coursesList); /// adding log function
+
+ /// add the course list in 3 arrys or parts
+  let courses = 1620
+  for(let courses of coursesList )
+  {
+      if(courses.program === "BCIT" && courses)
+      {
+        courses ++;
+      }
+  }
+console.log(courses); 
